@@ -14,13 +14,13 @@
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: 'Pixelify Sans Variable', system-ui;
   color: black
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-family: 'Pixelify Sans Variable', system-ui;
   color: black
 }
@@ -34,11 +34,11 @@ h2 {
     "four five six subtract"
     "one two three add"
     "zero decimal equals equals";
-  grid-template-columns: 100px 100px 100px 100px;
-  gap: 20px;
-  padding: 50px;
-  padding-top: 4cqb;
-  margin-top: 20px;
+  grid-template-columns: 70px 70px 70px 70px;
+  gap: 12px;
+  margin-top: 10px;
+  padding: 38px;
+  padding-top: 28px;
   border-radius: 20px;
   background-color: #fecd23;
   box-shadow: 11px 10px 0px 0px rgba(0,0,0,0.75);
@@ -62,7 +62,7 @@ h2 {
 
 button {
   font-family: 'Pixelify Sans Variable', system-ui;
-  height: 100px;
+  height: 70px;
   font-size: 34px;
   border: none;
   cursor: pointer;
@@ -86,20 +86,20 @@ button:active {
 }
 
 #answer {
-  height: 60px;
-  font-size: 42px;
+  height: 40px;
+  font-size: 26px;
 }
 
 #expression {
   margin-bottom: 10px;
-  font-size: 22px;
-  height: 24px;
+  font-size: 16px;
+  height: 20px;
   color: rgb(164, 164, 164);
 }
 
 h3 {
+  margin-top: 15px;
   color: black;
-  margin-top: 20px;
   font-family: 'Pixelify Sans Variable', system-ui;
 }
 
