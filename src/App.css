@@ -1,0 +1,184 @@
+:root {
+  --btn-equals: #0a6789; 
+  --btn-number: #cf0638;
+  --btn-operator: #0a996f;
+  --btn-master: #fa6632;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Pixelify Sans Variable', system-ui;
+  color: black
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Pixelify Sans Variable', system-ui;
+  color: black
+}
+
+#calculator {
+  display: grid;
+  grid-template-areas:
+    "display display display display"
+    "clear negative percentage divide"
+    "seven eight nine multiply"
+    "four five six subtract"
+    "one two three add"
+    "zero decimal equals equals";
+  grid-template-columns: 100px 100px 100px 100px;
+  gap: 20px;
+  padding: 50px;
+  padding-top: 4cqb;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: #fecd23;
+  box-shadow: 11px 10px 0px 0px rgba(0,0,0,0.75);
+}
+
+.btn-equals {
+  background-color: var(--btn-equals);
+}
+
+.btn-operator {
+  background-color: var(--btn-operator);
+}
+
+.btn-master {
+  background-color: var(--btn-master);
+}
+
+.btn-number {
+  background-color: var(--btn-number);
+}
+
+button {
+  font-family: 'Pixelify Sans Variable', system-ui;
+  height: 100px;
+  font-size: 34px;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  width: 100%;
+  transition: transform 0.1s ease-in-out;
+  box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.75);
+}
+
+button:active {
+  transform: scale(0.95)
+}
+
+#display {
+  font-family: 'DSEG7 Classic Mini', sans-serif;
+  grid-area: display;
+  background-color: rgb(41, 41, 41);
+  padding: 12px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 0px 0px rgba(223, 223, 223, 0.75);
+}
+
+#answer {
+  height: 60px;
+  font-size: 42px;
+}
+
+#expression {
+  margin-bottom: 10px;
+  font-size: 22px;
+  height: 24px;
+  color: rgb(164, 164, 164);
+}
+
+h3 {
+  color: black;
+  margin-top: 20px;
+  font-family: 'Pixelify Sans Variable', system-ui;
+}
+
+a {
+  text-decoration: none;
+}
+
+#divide {
+  grid-area: divide;
+}
+
+#clear {
+  grid-area: clear;
+}
+
+#negative {
+  grid-area: negative;
+}
+
+#percentage {
+  grid-area: percentage;
+}
+
+#multiply {
+  grid-area: multiply;
+}
+
+#nine {
+  grid-area: nine;
+}
+
+#eight {
+  grid-area: eight;
+}
+
+#seven {
+  grid-area: seven;
+}
+
+#six {
+  grid-area: six;
+}
+
+#five {
+  grid-area: five;
+}
+
+#four {
+  grid-area: four;
+}
+
+#three {
+  grid-area: three;
+}
+
+#two {
+  grid-area: two;
+}
+
+#one {
+  grid-area: one;
+}
+
+#zero {
+  grid-area: zero;
+}
+
+#decimal {
+  grid-area: decimal;
+}
+
+#subtract {
+  grid-area: subtract;
+}
+
+#add {
+  grid-area: add;
+}
+
+#equals {
+  grid-area: equals;
+}
